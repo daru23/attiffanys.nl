@@ -132,7 +132,7 @@ a:hover, a:focus {
   width: 0;
   height: 10px;
   z-index: -1;
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .standard-title {
@@ -394,7 +394,7 @@ button {
   .nav-wrap.header-fill {
     background-color: #fff;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
-    font-size: 25px;
+    font-size: 30px;
   }
   .nav-wrap.header-fill .brand, .nav-wrap.header-fill .brand-widescreen {
     color: #28282E;
@@ -498,7 +498,7 @@ button {
     -moz-transition: all 0.4s ease;
     -o-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
-    font-size: 33px;
+    font-size: 68%;
   } 
 }
 
@@ -566,20 +566,20 @@ button {
   }
   .smaller .carna-menu > li > a:hover,
   .is-fill .carna-menu > li > a:hover {
-    color: #F26F70;
+    color: #A5CAD4;
   }
   .smaller .carna-menu > li > a.active,
   .is-fill .carna-menu > li > a.active {
-    color: #F26F70;
+    color: #A5CAD4;
   }
   .header-fill .carna-menu > li > a {
     color: #212121;
   }
   .header-fill .carna-menu > li > a:hover {
-    color: #F26F70;
+    color: #A5CAD4;
   }
   .header-fill .carna-menu > li > a.active {
-    color: #F26F70;
+    color: #A5CAD4;
   }
 }
 
@@ -1021,7 +1021,7 @@ button {
   top: 0;
   right: 0;
   z-index: 900;
-  background: #F26F70 url(../images/pattern/pattern-red.png);
+  background: #aacad8;
   width: 100%;
   height: 100%;
   padding: 2em;
@@ -1541,12 +1541,12 @@ button {
 **********************************************/
 .tp-bullet.selected,
 .tp-bullet:hover {
-  background: #F26F70;
-  border-color: #F26F70;
+  background: #A5CAD4;
+  border-color: #A5CAD4;
 }
 
 .zeus .tp-bullet:after {
-  background: #F26F70;
+  background: #A5CAD4;
 }
 
 .tp-caption.BigBold-Title,
@@ -1817,11 +1817,11 @@ button {
 }
 
 .master-slider .ms-bullet:hover {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .master-slider .ms-bullet.ms-bullet-selected {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .ms-carousel-slide {
@@ -2029,8 +2029,8 @@ button {
 
 .btn-main:hover, .btn-main:active, .btn-main:focus {
   cursor: pointer;
-  background-color: #F26F70;
-  border-color: #F26F70;
+  background-color: #A5CAD4;
+  border-color: #A5CAD4;
   color: #fff;
 }
 
@@ -2116,11 +2116,11 @@ button {
 }
 
 .counter-content i {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .counter-content .timer {
-  color: #F26F70;
+  color: #A5CAD4;
   font-size: 20px;
   margin: 10px 0;
 }
@@ -2134,7 +2134,7 @@ button {
 
 /*BUBBLE*/
 .infograph-container {
-  background: #F26F70 url(../images/pattern/pattern-red.png);
+  background: #A5CAD4 url(../images/pattern/pattern-red.png);
 }
 
 .bubble {
@@ -2180,7 +2180,7 @@ button {
   -ms-transform: translateX(-50%) translateY(-50%);
   -o-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  color: #F26F70;
+  color: #A5CAD4;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 30px;
@@ -3189,7 +3189,7 @@ a[data-popup] {
 }
 
 .header-video__play-trigger:hover {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .header-video__play-trigger:hover i {
@@ -3212,7 +3212,7 @@ a[data-popup] {
 }
 
 #header-video__close-trigger:hover {
-  color: #F26F70;
+  color: #A5CAD4;
   border-radius: 100%;
 }
 
@@ -3335,7 +3335,7 @@ a[data-popup] {
 }
 
 .deco-parting .deco-header {
-  color: #F26F70;
+  color: #A5CAD4;
   text-transform: uppercase;
   font-weight: normal;
   line-height: 1.1;
@@ -3443,11 +3443,11 @@ a[data-popup] {
 }
 
 .test-classic .bx-wrapper .bx-pager.bx-default-pager a:hover {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .test-classic .bx-wrapper .bx-pager.bx-default-pager a.active {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 /*********************************************
@@ -3482,7 +3482,7 @@ a[data-popup] {
   padding-right: 20px;
   font-size: 30px;
   text-align: center;
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .content-box-side .box-side-details {
@@ -3541,7 +3541,7 @@ a[data-popup] {
 }
 
 .item-img-details i {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 /*********************************************
@@ -3609,7 +3609,7 @@ a[data-popup] {
   width: auto;
   max-width: 500px;
   margin: 20px auto;
-  background: #F26F70 url(../images/pattern/pattern-red.png);
+  background: #A5CAD4 url(../images/pattern/pattern-red.png);
 }
 
 .team-details .standard-title {
@@ -3653,7 +3653,7 @@ a[data-popup] {
 }
 
 .hero-paragraph .highlighted {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
   padding: 5px;
   color: #28282E;
 }
@@ -3687,7 +3687,7 @@ a[data-popup] {
 }
 
 .back-to-top:hover {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
   color: #fff;
 }
 
@@ -8365,7 +8365,7 @@ a[data-popup] {
     }
 }*/
 .cbp-popup-singlePage .cbp-popup-navigation-wrap {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .cbp-popup-singlePage .cbp-popup-prev,
@@ -8425,7 +8425,7 @@ a[data-popup] {
   height: 300px;
   top: 0;
   left: 0;
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .header-grid .header-grid__inner {
@@ -8770,7 +8770,7 @@ a[data-popup] {
 
 .item-nav {
   height: 80px;
-  background-color: #F26F70;
+  background-color: #A5CAD4;
   text-align: center;
   line-height: 80px;
 }
@@ -8841,7 +8841,7 @@ a[data-popup] {
   left: 0;
   width: 0;
   height: 10px;
-  background-color: #F26F70;
+  background-color: #A5CAD4;
   -webkit-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.5);
   -moz-transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.5);
   transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.5);
@@ -8935,7 +8935,7 @@ a[data-popup] {
   -ms-transform: translateY(-50%);
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
-  background-color: #F26F70;
+  background-color: #A5CAD4;
   padding: .25rem 1rem;
   top: 4px;
   font-size: 12px;
@@ -9034,7 +9034,7 @@ a[data-popup] {
 }
 
 .post-band .post-title:hover {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .post-band [class*="post-data"] li {
@@ -9045,7 +9045,7 @@ a[data-popup] {
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .post-band [class*="post-data"] li a:hover {
@@ -9057,7 +9057,7 @@ a[data-popup] {
 }
 
 .post-band .post-brief a {
-  color: #F26F70;
+  color: #A5CAD4;
   font-size: 13px;
   font-weight: bold;
   -webkit-transition: color 0.3s;
@@ -9079,7 +9079,7 @@ a[data-popup] {
 
 .blog-stander-sidebar .post-quote:hover,
 .blog-stander-sidebar .post-link:hover {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 .blog-stander-sidebar .post-quote a,
@@ -9183,7 +9183,7 @@ a[data-popup] {
 }
 
 .blog-sidebar > section li a:hover {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .blog-sidebar > section li .recent-post__inner a {
@@ -9208,7 +9208,7 @@ a[data-popup] {
 }
 
 .blog-sidebar > section.tags a:hover {
-  background-color: #F26F70;
+  background-color: #A5CAD4;
 }
 
 /*BLOG SINGLE PAGE */
@@ -9282,7 +9282,7 @@ a[data-popup] {
 }
 
 .author-post .author-post__data a:hover {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .comment-wrap .join {
@@ -9344,7 +9344,7 @@ a[data-popup] {
 
 .commentBand .more-title {
   font-size: 12px;
-  color: #F26F70;
+  color: #A5CAD4;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   transition: color 0.3s;
@@ -9427,14 +9427,15 @@ a[data-popup] {
 }
 
 .footer__social li a:hover {
-  color: #F26F70;
+  color: #A5CAD4;
 }
 
 .h2_title {
-  margin-top: 20px;
+  position: relative;
+  margin-top: 7%;
   font-family: "Black Jack";
   text-rendering: optimizeLegibility;
-  font-size: 55px;
+  font-size: 100%;
   color: #000000;
 }
 
@@ -9442,5 +9443,10 @@ a[data-popup] {
   /*height: 60px;*/
   font-family: "Black Jack";
   font-size: 45px;
+}
+
+.p_tariven {
+  font-size: 12px;
+  /*font-size: 1vw;*/
 }
 
