@@ -3562,7 +3562,7 @@ a[data-popup] {
   height: 100%;
   top: 0;
   left: 0;
-  background-color: rgba(242, 111, 112, 0.9);
+  background-color: rgba(256, 256, 256, 0.5);
   color: #fff;
   text-transform: capitalize;
   opacity: 0;
@@ -8528,7 +8528,7 @@ a[data-popup] {
   -webkit-transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   -moz-transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
-  background: rgba(242, 111, 112, 0.9);
+  background: rgba(256, 256, 256, 0.5);
 }
 
 .block-item .block-item__details {
@@ -8976,7 +8976,7 @@ a[data-popup] {
   top: 0;
   left: 0;
   z-index: 0;
-  background-color: rgba(242, 111, 112, 0.9);
+  background-color: rgba(256, 256, 256, 0.5);
 }
 
 .blog-intro .blog-intro__header {
@@ -9400,6 +9400,19 @@ a[data-popup] {
 /*-----------------------------------------------------------------------------
    20. Footer
 -----------------------------------------------------------------------------*/
+
+@font-face {
+  font-family: 'Black Jack';
+  src: url('blackjack-webfont.eot');
+  src: url('blackjack-webfont.eot?#iefix') format('embedded-opentype'),
+  url('blackjack-webfont.woff') format('woff'),
+  url('blackjack-webfont.ttf') format('truetype'),
+  url('blackjack-webfont.svg#black_jackregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
 .main-footer {
   background-image: url(../images/pattern/pattern-dark.jpg);
 }
