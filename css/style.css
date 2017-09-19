@@ -3550,6 +3550,8 @@ a[data-popup] {
 .team-block {
   display: block;
   position: relative;
+  /*margin-left: 20px;*/
+  /*margin-right: 10px;*/
   -webkit-transition: -webkit-transform 0.3s ease;
   -moz-transition: -moz-transform 0.3s ease;
   transition: transform 0.3s ease;
@@ -9463,3 +9465,25 @@ a[data-popup] {
   /*font-size: 1vw;*/
 }
 
+.img2 {
+  max-width: 330%;
+  height: auto;
+  padding-left: 84px;
+
+}
+
+
+.centerimg {
+}
+
+.img3 {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #2D2D2D;
+  /*opacity: 0.9;*/
+
+}
+
+h5 {
+  text-decoration: underline;
+}
