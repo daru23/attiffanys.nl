@@ -357,7 +357,7 @@ button {
 @media (max-width: 992px) {
   .nav-wrap.is-fixed {
     position: relative;
-    background-color: #28282E;
+    background-color: #f0f0f0;
   }
   .nav-wrap.is-fixed.white_bg {
     background-color: #FFF;
