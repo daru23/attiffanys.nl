@@ -9468,7 +9468,7 @@ a[data-popup] {
 }
 
 .img2 {
-  max-width: 330%;
+  max-width: 300%;
   height: auto;
   padding-left: 84px;
 
@@ -9488,4 +9488,9 @@ a[data-popup] {
 
 h5 {
   text-decoration: underline;
+}
+
+.trends {
+  width: 520px;
+  height: 375px;
 }
