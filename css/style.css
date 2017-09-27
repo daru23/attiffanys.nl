@@ -9448,8 +9448,9 @@ a[data-popup] {
 }
 
 .h2_title {
-  position: relative;
-  margin-top: 7%;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 0 14px;
   font-family: "Black Jack";
   text-rendering: optimizeLegibility;
   font-size: 100%;
