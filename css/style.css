@@ -3228,7 +3228,8 @@ a[data-popup] {
 
 .pages,
 .bg-pattern {
-  background-image: url(../images/pattern/pattern-light.png);
+  background-color: #FAFAFA;
+  /*background-image: url(../images/pattern/pattern-light.png);*/
 }
 
 .bg-pattern-dark {
