@@ -358,7 +358,7 @@ button {
 @media (max-width: 992px) {
   .nav-wrap.is-fixed {
     position: relative;
-    background-color: #f0f0f0;
+    background-color: #aacad8;
   }
   .nav-wrap.is-fixed.white_bg {
     background-color: #FFF;
@@ -398,7 +398,7 @@ button {
     font-size: 30px;
   }
   .nav-wrap.header-fill .brand, .nav-wrap.header-fill .brand-widescreen {
-    color: #28282E;
+    /*color: #28282E;*/
     position: relative;
   }
   .nav-wrap.header-fill .brand .logo-dark, .nav-wrap.header-fill .brand-widescreen .logo-dark {
@@ -500,7 +500,7 @@ button {
     -o-transition: all 0.4s ease;
     -ms-transition: all 0.4s ease;
     font-size: 68%;
-  } 
+  }
 }
 
 /*-----------------------------------------------------------------------------
@@ -712,6 +712,7 @@ button {
 }
 
 .mobile-wrap {
+  background: #aacad8;
   display: none;
   width: 100%;
 }
@@ -734,7 +735,7 @@ button {
   padding: 12px 5px 12px 0;
   display: block;
   /*border-bottom: solid 1px #7f8c8d;*/
-  color: #000;
+  color: #fff;
   font-size: 12px;
   font-weight: 600;
   text-transform: uppercase;
@@ -746,7 +747,7 @@ button {
 }
 
 .carna-menu-mobile li:first-child a {
-  border-top: solid 1px #494949;
+  border-top: solid 1px #fff;
 }
 
 .white_bg .carna-menu-mobile li:first-child a {
@@ -1952,6 +1953,7 @@ button {
   width: 100% !important;
   color: #212121;
   font-weight: bold;
+  font-size: 12px;
 }
 
 /* ms-partialview-template */
@@ -9476,7 +9478,6 @@ a[data-popup] {
 
 }
 
-
 .centerimg {
 }
 
@@ -9495,4 +9496,25 @@ h5 {
 .trends {
   width: 520px;
   height: 375px;
+}
+
+
+@media (max-width: 767px) {
+  .p_promo {
+    font-size: 24px;
+  }
+  .standard-title {
+    font-size: 14px;
+  }
+  .content-box-side i {
+    font-size: 20px;
+  }
+  #trends {
+    display: none;
+  }
+  .h2_title {
+    color: #ffffff;
+    font-size: 20px;
+    font-style: normal;
+  }
 }
