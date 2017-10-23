@@ -1432,7 +1432,10 @@
 
 
             $(document).on('click', '.scrollTo', function() {
-                $.fn.fullpage.moveTo('anchor2');
+                if ($.fn.fullpage !== 'undefined') {
+                    $.fn.fullpage.moveTo('anchor2');
+
+                }
             });
         }
 
