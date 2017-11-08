@@ -1432,7 +1432,7 @@
 
 
             $(document).on('click', '.scrollTo', function() {
-                if ($.fn.fullpage !== 'undefined') {
+                if (typeof $.fn.fullpage !== 'undefined') {
                     $.fn.fullpage.moveTo('anchor2');
 
                 }
