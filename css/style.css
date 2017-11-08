@@ -1019,7 +1019,7 @@ button {
  * Here be all the stuff for the menu itself.
  */
 .mm-menu {
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   z-index: 900;
@@ -1036,7 +1036,7 @@ button {
   transform: translateX(100%);
   -webkit-transition: -webkit-transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.5s;
   -moz-transition: -moz-transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.5s;
-  transition: transform 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955), box-shadow 0.5s;
+
 }
 
 .mm-menu.active {
@@ -1178,7 +1178,7 @@ button {
  */
 .mm-menu-mask {
   display: block;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   z-index: 106;
@@ -9529,42 +9529,15 @@ h5 {
   .content-box-side i {
     font-size: 20px;
   }
-  #trends {
-    display: none;
-  }
+
   .h2_title {
     color: #ffffff;
     font-size: 20px;
     font-style: normal;
   }
-
-  .mm-menu-mask {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 106;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    visibility: hidden;
-    opacity: 0;
-    -webkit-transition: opacity 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955), visibility 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    -moz-transition: opacity 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955), visibility 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-    transition: opacity 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955), visibility 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-  }
-
-  .mm-menu-mask.active {
-    visibility: visible;
-    opacity: 1;
-  }
-
 }
 
 @media (max-width: 350px) {
-
-
-
   .h2_title {
     color: #ffffff;
     font-size: 16px;
