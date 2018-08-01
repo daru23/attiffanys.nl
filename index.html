@@ -6,7 +6,7 @@
     <title> At Tiffany's </title>
 
     <!-- Mobile Specific Meta -->
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
@@ -30,13 +30,20 @@
     <script src="js/modernizr.js"></script>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m);
+        })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-101491172-1', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-101491172-1', 'auto');
+        ga('send', 'pageview');
 
     </script>
 
@@ -45,526 +52,144 @@
 
 <body data-smooth-scroll="true">
 
-    <div class="animsition-overlay" data-animsition-overlay="true">
+<div class="animsition-overlay" data-animsition-overlay="true">
 
-        <header>
+    <header>
 
-            <div class="nav-wrap is-fixed is-shrink off-canvas header-fill" data-is-fill="true">
+        <div class="nav-wrap is-fixed is-shrink off-canvas header-fill" data-is-fill="true">
 
-                <div class="container-fluid">
+            <div class="container-fluid">
 
-                    <div class="row">
+                <div class="row">
 
-                        <div class="col-md-12 carna-menu-wrap">
+                    <div class="col-md-12 carna-menu-wrap">
 
-                            <ul class="carna-menu menu-highlight menu-smooth">
+                        <ul class="carna-menu menu-highlight menu-smooth">
 
-                                <li><a href="#about" data-scroll class="scrollTo">over ons</a></li>
-                                <li><a href="#tariven" data-scroll class="scrollTo">tarieven</a></li>
-                                <li><a href="#galeria" data-scroll class="scrollTo">fotogalerij</a></li>
-                                <li><a href="#services" data-scroll class="scrollTo">producten</a></li>
-                                <!--<li><a href="#trends" data-scroll class="scrollTo">trends</a></li>-->
-                                <li><a href="#ref" data-scroll class="scrollTo">referenties</a></li>
-                                <li><a href="#contact" data-scroll class="scrollTo">contact</a></li>
+                            <li><a href="#about" data-scroll class="scrollTo">over ons</a></li>
+                            <li><a href="#tariven" data-scroll class="scrollTo">tarieven</a></li>
+                            <li><a href="#galeria" data-scroll class="scrollTo">fotogalerij</a></li>
+                            <li><a href="#services" data-scroll class="scrollTo">producten</a></li>
+                            <!--<li><a href="#trends" data-scroll class="scrollTo">trends</a></li>-->
+                            <li><a href="#ref" data-scroll class="scrollTo">referenties</a></li>
+                            <li><a href="#contact" data-scroll class="scrollTo">contact</a></li>
 
-                            </ul>
-                            <!-- end of menu -->
+                        </ul>
+                        <!-- end of menu -->
 
-                        </div>
-                        <!-- / col-md-9 -->
+                    </div>
+                    <!-- / col-md-9 -->
 
-                        <div class="col-xs-3 text-right button-wrap">
-                            <button class="button-trigger"><span></span>
-                            </button>
-                        </div>
-                        <!-- / col-xs-6 -->
+                    <div class="col-xs-3 text-right button-wrap">
+                        <button class="button-trigger"><span></span>
+                        </button>
+                    </div>
+                    <!-- / col-xs-6 -->
 
-                        <div class="col-xs-6 col-sm-6 col-md-3 brand-band">
+                    <div class="col-xs-6 col-sm-6 col-md-3 brand-band">
 
-                            <div class="brand-wrap clearfix">
+                        <div class="brand-wrap clearfix">
 
-                                <a href="#">
+                            <a href="#">
                                 <h2 class="h2_title">At Tiffany's</h2>
-                                </a>
-                            </div>
-
-                        </div>
-                        <!-- / col-xs-6 -->
-
-                        <div class="col-xs-3 mm-button-band ">
-
-                            <button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu<span></span>
-                            </button>
+                            </a>
                         </div>
 
-                        <div class="col-md-12 mobile-wrap" data-one-page="true" data-has-button="true">
-                            <ul class="carna-menu-mobile mobile-smooth" data-scroll-header>
+                    </div>
+                    <!-- / col-xs-6 -->
 
-                                <li><a href="#about" data-scroll class="scrollTo">over ons</a></li>
-                                <li><a href="#tariven" data-scroll class="scrollTo">tarieven</a></li>
-                                <li><a href="#galeria" data-scroll class="scrollTo">fotogalerij</a></li>
-                                <li><a href="#services" data-scroll class="scrollTo">producten</a></li>
-                                <!--<li><a href="#trends" data-scroll class="scrollTo">trends</a></li>-->
-                                <li><a href="#ref" data-scroll class="scrollTo">referenties</a></li>
-                                <li><a href="#contact" data-scroll class="scrollTo">contact</a></li>
+                    <div class="col-xs-3 mm-button-band ">
+
+                        <button id="mm-menu-toggle" class="mm-menu-toggle">Toggle Menu<span></span>
+                        </button>
+                    </div>
+
+                    <div class="col-md-12 mobile-wrap" data-one-page="true" data-has-button="true">
+                        <ul class="carna-menu-mobile mobile-smooth" data-scroll-header>
+
+                            <li><a href="#about" data-scroll class="scrollTo">over ons</a></li>
+                            <li><a href="#tariven" data-scroll class="scrollTo">tarieven</a></li>
+                            <li><a href="#galeria" data-scroll class="scrollTo">fotogalerij</a></li>
+                            <li><a href="#services" data-scroll class="scrollTo">producten</a></li>
+                            <!--<li><a href="#trends" data-scroll class="scrollTo">trends</a></li>-->
+                            <li><a href="#ref" data-scroll class="scrollTo">referenties</a></li>
+                            <li><a href="#contact" data-scroll class="scrollTo">contact</a></li>
+
+                        </ul>
+
+                    </div>
+                    <!-- / col-md-12 -->
+
+                    <div class="clearfix"></div>
+
+                </div>
+                <!-- end row -->
+
+            </div>
+            <!-- end container -->
+
+        </div>
+        <!-- end nav-wrap -->
+
+    </header>
+    <!-- end header -->
+
+    <div id="wrapper" class="content-wrapper wrapper">
+
+        <div id="home" class="pages">
+
+            <div class="header-video">
+
+                <div class="color-bg" data-color-bg="#fff" data-opacity=".7" data-color-zindex="3"></div>
+
+                <img src="images/old/frontal.jpg"
+                     class="header-video__media"
+                     data-video-width="560"
+                     data-video-height="315"
+                     alt="">
+
+                <div class="container-fluid sliderBand">
+
+                    <div class="row">
+
+                        <div class="col-md-12">
+
+                            <ul class="bx-slider" data-bx-delay="1000" data-bx-mode="vertical"
+                                data-bx-easing="easeOutQuad" data-bx-auto-play="true" data-bx-control="false"
+                                data-bx-auto-hover="true" data-bx-pager="false">
+                                <li>
+                                    <div class="item">
+                                        <p class="p_promo">At Tiffany's </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="item">
+                                        <p class="p_promo">Dames, heren en kinderkapsalon.</p>
+                                    </div>
+                                </li>
 
                             </ul>
+                            <!--end bx slider-->
 
                         </div>
-                        <!-- / col-md-12 -->
-
-                        <div class="clearfix"></div>
-
-                    </div>
-                    <!-- end row -->
-
-                </div>
-                <!-- end container -->
-
-            </div>
-            <!-- end nav-wrap -->
-
-        </header>
-        <!-- end header -->
-
-        <div id="wrapper" class="content-wrapper wrapper">
-
-            <div id="home" class="pages">
-
-                <div class="header-video">
-                  
-                   <div class="color-bg" data-color-bg="#fff" data-opacity=".7" data-color-zindex="3"></div>
-                   
-                    <img src="images/old/frontal.jpg"
-                         class="header-video__media"
-                         data-video-width="560"
-                         data-video-height="315"
-                         alt="">
-                         
-                    <div class="container-fluid sliderBand">
-
-                        <div class="row">
-
-                            <div class="col-md-12">
-
-                                <ul class="bx-slider" data-bx-delay="1000" data-bx-mode="vertical" data-bx-easing="easeOutQuad" data-bx-auto-play="true" data-bx-control="false" data-bx-auto-hover="true" data-bx-pager="false">
-                                    <li>
-                                        <div class="item">
-                                            <p class="p_promo">At Tiffany's </p>
-                                        </div>
-                                    </li>
-
-                                    <li>
-                                        <div class="item">
-                                            <p class="p_promo">Dames, heren en kinderkapsalon.</p>
-                                        </div>
-                                    </li>
-
-                                </ul>
-                                <!--end bx slider-->
-                                
-                            </div>
-                            <!-- end col-md-12 -->
-
-                        </div>
-                        <!-- / row -->
-
-                    </div>
-                    <!-- / container-->
-
-                    <a href="#about" class="inner-link scrollTo"><i class="pe-7s-angle-down scrollDown"></i></a>
-                    
-                </div>
-                <!-- / header video -->
-
-            </div>
-            <!-- end home -->
-
-            <div id="about" class="pages">
-
-                <div class="container-fluid space-y">
-
-                    <div class="row">
-
-                        <div class="col-md-12 text-center">
-
-                            <h1 class="section-header">over ons<span class="underline animated" data-animation="fullWidth"></span></h1>
-
-                        </div>
-                        <!-- / col-md-12 -->
-
-                    </div>
-                    <!-- / row -->
-
-                    <div class="row">
-
-                        <div class="col-md-5 col-sm-12">
-
-                            <p>At Tiffany's is een gezellige kapsalon voor jong en oud gelegen zeer nabij de Scheveningse boulevard.</p>
-                            <p>Wij werken uitsluitend op afspraak en plannen deze afspraken zodanig in dat wij voor iedere klant altijd ruim de tijd kunnen nemen. Indien gewenst adviseren wij u welk kapsel het beste bij u past en houden hierbij niet alleen rekening met uw haartype, gezichtsvorm en figuur, maar bijvoorbeeld ook met uw eigen persoonlijkheid en levensstijl. Het is voor ons erg belangrijk dat iedere klant met een zeer tevreden gevoel de deur uit gaat!</p>
-                            <p>Voor de kleintjes hebben wij een leuke speelse kinderhoek met een stoere scooter waar ze op kunnen zitten en wat speelgoed, zodat ook zij zich helemaal op hun gemak voelen.</p>
-                            <br/>
-                            <p>Let op:</p>
-                            <p>De salon is gelegen op de eerste verdieping van mijn woning, dus u moet rekening houden met een trap.</p>
-
-                        </div>
-                        <!-- / col-sm-5 -->
-
-                        <div class="col-md-7 hidden-xs hidden-sm">
-
-                            <div class="img-full animated" data-animation="fadeInRight"><img src="images/old/chairs.jpg" height="424" width="984" alt=""></div>
-
-                        </div>
-                        <!-- / col-sm-6 -->
+                        <!-- end col-md-12 -->
 
                     </div>
                     <!-- / row -->
 
                 </div>
-                <!-- / container -->
+                <!-- / container-->
+
+                <a href="#about" class="inner-link scrollTo"><i class="pe-7s-angle-down scrollDown"></i></a>
 
             </div>
-            <!-- end about -->
+            <!-- / header video -->
 
-            <div id="tariven" class="pages">
+        </div>
+        <!-- end home -->
 
-                <div class="container space-y-t">
-
-                    <div class="row">
-
-                        <div class="col-md-12 text-center">
-
-                            <h1 class="section-header">tarieven<span class="underline animated" data-animation="fullWidth"></span></h1>
-
-                        </div>
-                        <!-- / col-md-12 -->
-
-                    </div>
-                    <!-- / row -->
-
-                </div>
-                <!-- / container -->
-
-                <div class="container-fluid space-y-b-h">
-
-                    <div class="row">
-
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"> <i class="fa fa-female"></i>
-                                    <h3 class="standard-title text-uppercase">Dames:</h3> </div>
-                                <p class="p_tariven">     Pony knippen: € 5,00</p>
-                                <p class="p_tariven">     Wassen, knippen, drogen: € 21,50</p>
-                                <p class="p_tariven">     Wassen, knippen, modelföhnen(incl. versteviging en lak) : € 27,50</p>
-                                <p class="p_tariven">     Wassen, knippen, watergolf (incl. versteviging en lak): € 35,00</p>
-                                <p class="p_tariven">     Wassen, modelföhnen: € 15,00</p>
-                                <p class="p_tariven">     Wassen, watergolf: € 18,50</p>
-                                <p class="p_tariven">     Wassen, twisterkrullen (incl. versteviging en lak) : € 35,00</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="200">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"> <i class="fa fa-male"></i>
-                                    <h3 class="standard-title text-uppercase">Heren:</h3> </div>
-                                <p class="p_tariven">Wassen, knippen, drogen: € 17,50</p>
-                                <p class="p_tariven">Wassen, tondeuse: € 11,50</p>
-
-                            </div>
-                        </div>
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="200">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"> <i class="fa fa-male"></i>
-                                    <h3 class="standard-title text-uppercase">Kinderen:</h3> </div>
-                                <p class="p_tariven">Kinderen t/m 12 jaar: 12,50</p>
-                                <p class="p_tariven highlight-tariven">Woensdagmiddag kinderen t/m groep 4: 7,50</p>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"><i class="fa fa-paint-brush"></i>
-                                    <h3 class="standard-title text-uppercase">Kleuren:</h3> </div>
-                                <p class="p_tariven">Kleuren uitgroei: € 25,00</p>
-                                <p class="p_tariven">Kleuren egaal kort: € 37,50</p>
-                                <p class="p_tariven">Kleuren egaal lang: € 52,50</p>
-                                <p class="p_tariven">Duo kleuring kort: € 55,00</p>
-                                <p class="p_tariven">Duo kleuring lang: € 70,00</p>
-                                <p class="p_tariven">Dip Dye: v.a. € 30,00</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"><i class="fa fa-paint-brush"></i>
-                                    <h3 class="standard-title text-uppercase">High/Lowlights:</h3> </div>
-                                <p class="p_tariven">Coupe soleil: v.a. € 45,00</p>
-                                <p class="p_tariven">10 folies: € 25,00</p>
-                                <p class="p_tariven">3 folies: € 9,00</p>
-                                <p class="p_tariven">1 folie: € 3,50</p>
-                                <p class="p_tariven">Kamstrepen scalp: v.a. € 20,00</p>
-                                <p class="p_tariven">Kamstrepen gehele haar kort: v.a. € 25,00</p>
-                                <p class="p_tariven">Kamstrepen gehele haar lang: v.a. € 40,00</p>
-                                <p class="p_tariven">Voorpigmenteren: v.a. € 10,00</p>
-                                <p class="p_tariven">Ontkleuren: v.a. € 10,00</p>
-                            </div>
-                        </div>
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"><i class="fa fa-group"></i>
-                                    <h3 class="standard-title text-uppercase">Permanenten:</h3> </div>
-                                <p class="p_tariven">Deelpermanent (incl. wassen, knippen, föhnen): € 57,50</p>
-                                <p class="p_tariven">Permanent (incl. wassen, knippen, föhnen): € 65,00</p>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
-
-                            <div class="box-side-details">
-                                <div class="box-side__header"><i class="fa fa-eye"></i>
-                                    <h3 class="standard-title text-uppercase">Wenkbrauwen en wimpers:</h3> </div>
-                                <p class="p_tariven">Wenkbrauwen epileren & verven: € 6,50</p>
-                                <p class="p_tariven">Wimpers verven: € 5,00</p>
-                                <p class="p_tariven">Wenkbrauwen verven & epileren + wimpers verven: € 10,00</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- end row -->
-
-                </div>
-                <!-- end container -->
-
-                </div>
-                <!-- / infograph-container -->
-
-            </div>
-            <!-- end tariven -->
-
-            <div id="galeria" class="pages">
-
-
-                <section class="l-portfolio">
-
-                    <div class="container">
-
-                        <div class="row">
-
-                            <div class="col-md-12 text-center">
-
-                                <h1 class="section-header"> fotogalerij <span class="underline animated" data-animation="fullWidth"></span></h1>
-
-                            </div>
-                            <!-- / col-md-12 -->
-
-                        </div>
-                        <!-- / row -->
-
-                    </div>
-                    <!-- / container -->
-
-                    <div class="container-fluid space-y-b">
-
-                        <div id="js-filters-masonry-projects" class="cbp-l-filters-alignLeft">
-                            <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
-                                All
-                            </div>
-                            <div data-filter=".products" class="cbp-filter-item">
-                                producten
-                            </div>
-                            <div data-filter=".salon" class="cbp-filter-item">
-                                kapsalon
-                            </div>
-                            <div data-filter=".ui" class="cbp-filter-item">
-                                klanten
-                            </div>
-                        </div>
-
-                        <div class="grid-container cbp cbp-fullscreen fadeAnim"
-                             data-animate-type="quicksand"
-                             data-layoutmode="grid"
-                             data-grid-adjusment="responsive"
-                             data-filter="#js-filters-masonry-projects">
-
-                            <ul class="clearfix">
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="photography">
-                                    <img src="images/portfolio/salon/salon4.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="photography">
-                                    <img src="images/portfolio/salon/moto.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/salon/welcome.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element photography" data-symbol="Hg" data-category="photography">
-                                    <img src="images/portfolio/salon/salon6.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element products" data-symbol="Hg" data-category="ui">
-                                    <img src="images/portfolio/products/products4.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element products" data-symbol="Hg" data-category="ui">
-                                    <img src="images/portfolio/products/products1.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="logos">
-                                    <img src="images/portfolio/salon/salon10.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element products" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/products/products3.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/salon/door.jpeg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/salon/salon8.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/salon/tools.jpg" style="width: 105%" alt="" />
-                                </li>
-
-                                <li class="cbp-item element products" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/products/products5.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/salon/wash.jpg" alt="" />
-                                </li>
-
-                                <!--<li class="cbp-item element salon" data-symbol="Hg" data-category="branding">-->
-                                    <!--<img src="images/portfolio/salon/cupcakes.jpg" alt="" />-->
-                                <!--</li>-->
-
-                                <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/salon/entrance.jpg" alt="" />
-                                </li>
-
-                                <li class="cbp-item element products" data-symbol="Hg" data-category="branding">
-                                    <img src="images/portfolio/products/products6.jpg" alt="" />
-                                </li>
-
-
-                            </ul>
-                            <!-- nd porfolio -->
-
-                        </div>
-                        <!-- / grid-container -->
-
-                    </div>
-                    <!-- end cbp-l-grid-gallery -->
-
-                </section>
-                <!-- / SECTION -->
-
-            </div>
-            <!-- end services -->
-
-            <div id="services" class="pages">
-
-                <div class="container space-y-t">
-
-                    <div class="row">
-
-                        <div class="col-md-12 text-center">
-
-                            <h1 class="section-header">producten <span class="underline animated" data-animation="fullWidth"></span></h1>
-
-                        </div>
-                        <!-- / col-md-12 -->
-
-                    </div>
-                    <!-- / row -->
-
-                </div>
-                <!-- / container -->
-
-                <div class="container-fluid space-y-t"
-                    data-popup-type="inline" 
-                    data-popup-gallery-enable="false" 
-                    data-popup-main-class="mfp-fade-x" 
-                    data-popup-removal-delay="800">
-
-                    <div class="row equal-height">
-
-                        <div class="col-md-4 hidden-xs hidden-sm">
-
-                            <div class="animated" data-animation="bouncIn"><img src="images/portfolio/products/products5.jpg" alt=""></div>
-                                        <!--<img class="img2" src="images/portfolio/products/products4.jpg" alt="">-->
-
-                        </div>
-                        <!-- / col-md-6 -->
-
-                        <div class="col-md-8">
-
-                            <div class="item-img-details">
-
-                                <img src="images/portfolio/loreal.jpg">
-                                </br/><br/>
-                                <p>L’Oreal is wellicht het meest bekende en grootste merk met haarproducten. Dit komt omdat L’Oreal staat voor kwalitateit en innovatie.</p>
-                                <br/>
-                                <p>L’Oreal heeft voor elk haartype of haarprobleem wel een oplossing of zelfs een volledige lijn. Hieronder vind je verschillende shampoos, conditioners, haarmaskers, maar ook stylingproducten. Daarnaast heeft L'Oreal ook ’en uitgebreide lijn met haarproducten voor mannen. Heb je advies nodig? Neem gerust contact met ons op!</p>
-                                <br/>
-
-                            </div>
-                            <!-- / item-img-details -->
-
-                        </div>
-                        <!-- / col-md-6 -->
-
-                    </div>
-                </div>
-                <!-- / container-fluid-flat -->
-
-            </div>
-            <!-- end team -->
-
-            <!--<div id="trends" class="pages">-->
-
-                <!--<div class="container-fluid space-y">-->
-
-                    <!--<div class="row">-->
-
-                        <!--<div class="col-md-12 text-center">-->
-
-                            <!--<h1 class="section-header"> ontdek je eigen stijl! <span class="underline animated" data-animation="fullWidth"></span></h1>-->
-
-
-                            <!--<div>-->
-                                <!--<object width="620" height="475" data="http://www.kapperssite.nl/mini_nieuw/swf/Kapperssite_Widget_520x375.swf"></object>-->
-
-                            <!--</div>-->
-
-
-                        <!--</div>-->
-                        <!--&lt;!&ndash; / col-md-12 &ndash;&gt;-->
-
-                    <!--</div>-->
-                    <!--&lt;!&ndash; / row &ndash;&gt;-->
-
-                <!--</div>-->
-                <!--&lt;!&ndash; / container&ndash;&gt;-->
-
-            <!--</div>-->
-            <!-- / trends -->
-
-        <div id="ref" class="pages">
+        <div id="about" class="pages">
 
             <div class="container-fluid space-y">
 
@@ -572,9 +197,11 @@
 
                     <div class="col-md-12 text-center">
 
-                        <h1 class="section-header"> referenties <span class="underline animated" data-animation="fullWidth"></span></h1>
+                        <h1 class="section-header">over ons<span class="underline animated"
+                                                                 data-animation="fullWidth"></span></h1>
 
                     </div>
+                    <!-- / col-md-12 -->
 
                 </div>
                 <!-- / row -->
@@ -583,191 +210,598 @@
 
                     <div class="col-md-5 col-sm-12">
 
-                        <p>Ik ben helemaal blij met At Tiffany's! </p>
-
-                        <p>Ik krijg hele leuke, positieve reacties op mijn nieuwe kapsel. </p>
-                        <p>Er zijn er zelfs die zeggen dat ik er slanker uitzie. Hoe geweldig is dat! </p>
-                        <h6>Marlies Woudstra</h6>
-
-                        <p>Een super mooie salon en ze neemt echt de tijd voor je! Niet duur en super gezellig! </p>
-                        <p>Top zaak!! Resultaat is ook super!</p>
-                        <h6>Priscilla Knetemann</h6>
-
-                        <p>Tja wat moet ik er van zeggen Eindelijk een kapsalon waar je niet hoeft te wachten tot je eindelijk aan de beurt bent!!</p>
-                        <p>De ambiance bij binnenkomst is geweldig!Ook de hospitaliti is ronduit top!</p>
-                        <p>En je gaat de deur uit met een zorgvuldig knapgeknipte kop!!!!</p>
-                        <p>Proficaat en veel succes!!En tot over een paar weken!!!!!</p>
-                        <h6>Gerrit van Klaveren</h6>
-
-                        <p>Bedankt voor de geweldige service, en ben super blij met me nieuwe kapsel en kleur!!!</p>
-                        <h6>Diana Jager</h6>
-
-                        <p>Via Stichting Haarwensen gevonden. Om helemaal kort te gaan moet je wel een goede kapper vinden, en Tiffany was The One! Ik ben heel tevreden met mijn nieuwe haar, en ook de sfeer was goed. Tiffany neemt echt de tijd om te begrijpen wat je met je haar wilt, werkt snel en professioneel, en vertelt duidelijk hoe je je nieuwe coupe mooi kunt stylen. Aanrader! :)</p>
-                        <h6>Lilit Zeltsburg</h6>
-
+                        <p>At Tiffany's is een gezellige kapsalon voor jong en oud gelegen zeer nabij de Scheveningse
+                            boulevard.</p>
+                        <p>Wij werken uitsluitend op afspraak en plannen deze afspraken zodanig in dat wij voor iedere
+                            klant altijd ruim de tijd kunnen nemen. Indien gewenst adviseren wij u welk kapsel het beste
+                            bij u past en houden hierbij niet alleen rekening met uw haartype, gezichtsvorm en figuur,
+                            maar bijvoorbeeld ook met uw eigen persoonlijkheid en levensstijl. Het is voor ons erg
+                            belangrijk dat iedere klant met een zeer tevreden gevoel de deur uit gaat!</p>
+                        <p>Voor de kleintjes hebben wij een leuke speelse kinderhoek met een stoere scooter waar ze op
+                            kunnen zitten en wat speelgoed, zodat ook zij zich helemaal op hun gemak voelen.</p>
+                        <br/>
+                        <p>Let op:</p>
+                        <p>De salon is gelegen op de eerste verdieping van mijn woning, dus u moet rekening houden met
+                            een trap.</p>
 
                     </div>
                     <!-- / col-sm-5 -->
 
                     <div class="col-md-7 hidden-xs hidden-sm">
 
-                        <div class="img-full animated" data-animation="fadeInRight"><img src="images/portfolio/salon/wash.jpg" height="424" width="984" alt=""></div>
+                        <div class="img-full animated" data-animation="fadeInRight"><img src="images/old/chairs.jpg"
+                                                                                         height="424" width="984"
+                                                                                         alt=""></div>
 
                     </div>
                     <!-- / col-sm-6 -->
 
                 </div>
                 <!-- / row -->
+
+            </div>
+            <!-- / container -->
+
+        </div>
+        <!-- end about -->
+
+        <div id="tariven" class="pages">
+
+            <div class="container space-y-t">
+
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+
+                        <h1 class="section-header">tarieven<span class="underline animated"
+                                                                 data-animation="fullWidth"></span></h1>
+
+                    </div>
                     <!-- / col-md-12 -->
 
                 </div>
                 <!-- / row -->
 
             </div>
-            <!-- / container-->
+            <!-- / container -->
 
-        </div>
-        <!-- / references -->
+            <div class="container-fluid space-y-b-h">
 
-        <div id="contact" class="pages">
+                <div class="row">
 
-                <div class="container space-y-t">
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn">
 
-                    <div class="row">
-                        <div class="col-md-12 text-center">
-                            <h1 class="section-header">contact <span class="underline animated" data-animation="fullWidth"></span></h1>
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-female"></i>
+                                <h3 class="standard-title text-uppercase">Dames:</h3></div>
+                            <p class="p_tariven"> Pony knippen: € 5,00</p>
+                            <p class="p_tariven"> Wassen, knippen, drogen: € 21,50</p>
+                            <p class="p_tariven"> Wassen, knippen, modelföhnen(incl. versteviging en lak) : € 27,50</p>
+                            <p class="p_tariven"> Wassen, knippen, watergolf (incl. versteviging en lak): € 35,00</p>
+                            <p class="p_tariven"> Wassen, modelföhnen: € 15,00</p>
+                            <p class="p_tariven"> Wassen, watergolf: € 18,50</p>
+                            <p class="p_tariven"> Wassen, twisterkrullen (incl. versteviging en lak) : € 35,00</p>
                         </div>
-                        <!-- / col-md-12 -->
                     </div>
-                    <!-- / row -->
-                    <div class="map-wrap" if="fullpage">
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="200">
 
-                        <div class="gmap_canvas"
-                             data-latitude="52.1114521"
-                             data-longitude="4.28005440000004"
-                             data-marker-location1="Fokkemast 7, 2586 KP Den Haag, The Netherlands"
-                             data-marker-location2=" "
-                             data-marker2-visible="false"
-                             data-marker1-content="Waar de magie gebeurt!">
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-male"></i>
+                                <h3 class="standard-title text-uppercase">Heren:</h3></div>
+                            <p class="p_tariven">Wassen, knippen, drogen: € 17,50</p>
+                            <p class="p_tariven">Wassen, tondeuse: € 11,50</p>
+
                         </div>
+                    </div>
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="200">
 
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-male"></i>
+                                <h3 class="standard-title text-uppercase">Kinderen:</h3></div>
+                            <p class="p_tariven">Kinderen t/m 12 jaar: 12,50</p>
+                            <p class="p_tariven highlight-tariven">Woensdagmiddag kinderen t/m groep 4: 7,50</p>
+
+                        </div>
                     </div>
                 </div>
-                <!-- / container -->
+                <div class="row">
 
-            <!-- end contact -->
-            <footer class="main-footer space-y text-center">
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
 
-                <h4 class="text-uppercase title-footer">&copy; At Tiffany's</h4>
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-paint-brush"></i>
+                                <h3 class="standard-title text-uppercase">Kleuren:</h3></div>
+                            <p class="p_tariven">Kleuren uitgroei: € 25,00</p>
+                            <p class="p_tariven">Kleuren egaal kort: € 37,50</p>
+                            <p class="p_tariven">Kleuren egaal lang: € 52,50</p>
+                            <p class="p_tariven">Duo kleuring kort: € 55,00</p>
+                            <p class="p_tariven">Duo kleuring lang: € 70,00</p>
+                            <p class="p_tariven">Dip Dye: v.a. € 30,00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
 
-            </footer>
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-paint-brush"></i>
+                                <h3 class="standard-title text-uppercase">High/Lowlights:</h3></div>
+                            <p class="p_tariven">Coupe soleil: v.a. € 45,00</p>
+                            <p class="p_tariven">10 folies: € 25,00</p>
+                            <p class="p_tariven">3 folies: € 9,00</p>
+                            <p class="p_tariven">1 folie: € 3,50</p>
+                            <p class="p_tariven">Kamstrepen scalp: v.a. € 20,00</p>
+                            <p class="p_tariven">Kamstrepen gehele haar kort: v.a. € 25,00</p>
+                            <p class="p_tariven">Kamstrepen gehele haar lang: v.a. € 40,00</p>
+                            <p class="p_tariven">Voorpigmenteren: v.a. € 10,00</p>
+                            <p class="p_tariven">Ontkleuren: v.a. € 10,00</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
+
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-group"></i>
+                                <h3 class="standard-title text-uppercase">Permanenten:</h3></div>
+                            <p class="p_tariven">Deelpermanent (incl. wassen, knippen, föhnen): € 57,50</p>
+                            <p class="p_tariven">Permanent (incl. wassen, knippen, föhnen): € 65,00</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-4 content-box-side animated" data-animation="fadeIn" data-animation-delay="400">
+
+                        <div class="box-side-details">
+                            <div class="box-side__header"><i class="fa fa-eye"></i>
+                                <h3 class="standard-title text-uppercase">Wenkbrauwen en wimpers:</h3></div>
+                            <p class="p_tariven">Wenkbrauwen epileren & verven: € 6,50</p>
+                            <p class="p_tariven">Wimpers verven: € 5,00</p>
+                            <p class="p_tariven">Wenkbrauwen verven & epileren + wimpers verven: € 10,00</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end row -->
+
+            </div>
+            <!-- end container -->
+
         </div>
-
-
-
-
-
-
-    <nav id="mm-menu" class="mm-menu">
-
-            <h1 class="mm-menu__title text-uppercase">over ons</h1>
-
-            <div class="mm-menu__address">
-                <h6 class="text-uppercase">over ons</h6>
-                <p>At Tiffany's is een gezellige kapsalon voor jong en oud gelegen zeer nabij de Scheveningse boulevard.</p>
-
-            </div>
-            <!-- / mm-menu__address-->
-
-            <div class="mm-menu__address">
-                <h6 class="text-uppercase">contact info</h6>
-                <ul class="mm-menu__list">
-                    <li>+31 06-15429775</li>
-                    <li>info@attiffanys.nl</li>
-                </ul>
-            </div>
-            <!-- / mm-menu__address-->
-
-            <div class="mm-menu__address">
-                <h6 class="text-uppercase">At Tiffany's adres</h6>
-                <ul class="mm-menu__list">
-                    <li>Fokkemast 7</li>
-                    <li>2586 KP Scheveningen</li>
-                </ul>
-            </div>
-            <!-- / mm-menu__address-->
-
-            <div class="mm-menu__address">
-                <h6 class="text-uppercase">At Tiffany's social</h6>
-
-                <ul class="mm-menu__social">
-                    <li><a href="https://www.facebook.com/attiffanys/"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
-
-                </ul>
-                <!-- / mm-menu__social -->
-
-            </div>
-
-        </nav>
-        <!-- /nav -->
-
-
-
-        <a href="#" class="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
+        <!-- / infograph-container -->
 
     </div>
-    <!-- / animsation -->
+    <!-- end tariven -->
+
+    <div id="galeria" class="pages">
 
 
+        <section class="l-portfolio">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 text-center">
+
+                        <h1 class="section-header"> fotogalerij <span class="underline animated"
+                                                                      data-animation="fullWidth"></span></h1>
+
+                    </div>
+                    <!-- / col-md-12 -->
+
+                </div>
+                <!-- / row -->
+
+            </div>
+            <!-- / container -->
+
+            <div class="container-fluid space-y-b">
+
+                <div id="js-filters-masonry-projects" class="cbp-l-filters-alignLeft">
+                    <div data-filter="*" class="cbp-filter-item-active cbp-filter-item">
+                        All
+                    </div>
+                    <div data-filter=".products" class="cbp-filter-item">
+                        producten
+                    </div>
+                    <div data-filter=".salon" class="cbp-filter-item">
+                        kapsalon
+                    </div>
+                    <div data-filter=".ui" class="cbp-filter-item">
+                        klanten
+                    </div>
+                </div>
+
+                <div class="grid-container cbp cbp-fullscreen fadeAnim"
+                     data-animate-type="quicksand"
+                     data-layoutmode="grid"
+                     data-grid-adjusment="responsive"
+                     data-filter="#js-filters-masonry-projects">
+
+                    <ul class="clearfix">
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="photography">
+                            <img src="images/portfolio/salon/salon4.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="photography">
+                            <img src="images/portfolio/salon/moto.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/salon/welcome.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element photography" data-symbol="Hg" data-category="photography">
+                            <img src="images/portfolio/salon/salon6.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element products" data-symbol="Hg" data-category="ui">
+                            <img src="images/portfolio/products/products4.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element products" data-symbol="Hg" data-category="ui">
+                            <img src="images/portfolio/products/products1.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="logos">
+                            <img src="images/portfolio/salon/salon10.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element products" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/products/products3.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/salon/door.jpeg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/salon/salon8.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/salon/tools.jpg" style="width: 105%" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element products" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/products/products5.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/salon/wash.jpg" alt=""/>
+                        </li>
+
+                        <!--<li class="cbp-item element salon" data-symbol="Hg" data-category="branding">-->
+                        <!--<img src="images/portfolio/salon/cupcakes.jpg" alt="" />-->
+                        <!--</li>-->
+
+                        <li class="cbp-item element salon" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/salon/entrance.jpg" alt=""/>
+                        </li>
+
+                        <li class="cbp-item element products" data-symbol="Hg" data-category="branding">
+                            <img src="images/portfolio/products/products6.jpg" alt=""/>
+                        </li>
 
 
+                    </ul>
+                    <!-- nd porfolio -->
+
+                </div>
+                <!-- / grid-container -->
+
+            </div>
+            <!-- end cbp-l-grid-gallery -->
+
+        </section>
+        <!-- / SECTION -->
+
+    </div>
+    <!-- end services -->
+
+    <div id="services" class="pages">
+
+        <div class="container space-y-t">
+
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+
+                    <h1 class="section-header">producten <span class="underline animated"
+                                                               data-animation="fullWidth"></span></h1>
+
+                </div>
+                <!-- / col-md-12 -->
+
+            </div>
+            <!-- / row -->
+
+        </div>
+        <!-- / container -->
+
+        <div class="container-fluid space-y-t"
+             data-popup-type="inline"
+             data-popup-gallery-enable="false"
+             data-popup-main-class="mfp-fade-x"
+             data-popup-removal-delay="800">
+
+            <div class="row equal-height">
+
+                <div class="col-md-4 hidden-xs hidden-sm">
+
+                    <div class="animated" data-animation="bouncIn"><img src="images/portfolio/products/products5.jpg"
+                                                                        alt=""></div>
+                    <!--<img class="img2" src="images/portfolio/products/products4.jpg" alt="">-->
+
+                </div>
+                <!-- / col-md-6 -->
+
+                <div class="col-md-8">
+
+                    <div class="item-img-details">
+
+                        <img src="images/portfolio/loreal.jpg">
+                        </br/><br/>
+                        <p>L’Oreal is wellicht het meest bekende en grootste merk met haarproducten. Dit komt omdat
+                            L’Oreal staat voor kwalitateit en innovatie.</p>
+                        <br/>
+                        <p>L’Oreal heeft voor elk haartype of haarprobleem wel een oplossing of zelfs een volledige
+                            lijn. Hieronder vind je verschillende shampoos, conditioners, haarmaskers, maar ook
+                            stylingproducten. Daarnaast heeft L'Oreal ook ’en uitgebreide lijn met haarproducten voor
+                            mannen. Heb je advies nodig? Neem gerust contact met ons op!</p>
+                        <br/>
+
+                    </div>
+                    <!-- / item-img-details -->
+
+                </div>
+                <!-- / col-md-6 -->
+
+            </div>
+        </div>
+        <!-- / container-fluid-flat -->
+
+    </div>
+    <!-- end team -->
+
+    <!--<div id="trends" class="pages">-->
+
+    <!--<div class="container-fluid space-y">-->
+
+    <!--<div class="row">-->
+
+    <!--<div class="col-md-12 text-center">-->
+
+    <!--<h1 class="section-header"> ontdek je eigen stijl! <span class="underline animated" data-animation="fullWidth"></span></h1>-->
 
 
-    <script src="js/jquery.1.12.4.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/jquery.appear.js"></script>
+    <!--<div>-->
+    <!--<object width="620" height="475" data="http://www.kapperssite.nl/mini_nieuw/swf/Kapperssite_Widget_520x375.swf"></object>-->
+
+    <!--</div>-->
 
 
-    <script src="js/jquery.countTo.js"></script>
-    <script src="js/jquery.bxslider.min.js"></script>
-    <script src="js/jquery.cubeportfolio.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/masterslider.min.js"></script>
+    <!--</div>-->
+    <!--&lt;!&ndash; / col-md-12 &ndash;&gt;-->
+
+    <!--</div>-->
+    <!--&lt;!&ndash; / row &ndash;&gt;-->
+
+    <!--</div>-->
+    <!--&lt;!&ndash; / container&ndash;&gt;-->
+
+    <!--</div>-->
+    <!-- / trends -->
+
+    <div id="ref" class="pages">
+
+        <div class="container-fluid space-y">
+
+            <div class="row">
+
+                <div class="col-md-12 text-center">
+
+                    <h1 class="section-header"> referenties <span class="underline animated"
+                                                                  data-animation="fullWidth"></span></h1>
+
+                </div>
+
+            </div>
+            <!-- / row -->
+
+            <div class="row">
+
+                <div class="col-md-5 col-sm-12">
+
+                    <p>Ik ben helemaal blij met At Tiffany's! </p>
+
+                    <p>Ik krijg hele leuke, positieve reacties op mijn nieuwe kapsel. </p>
+                    <p>Er zijn er zelfs die zeggen dat ik er slanker uitzie. Hoe geweldig is dat! </p>
+                    <h6>Marlies Woudstra</h6>
+
+                    <p>Een super mooie salon en ze neemt echt de tijd voor je! Niet duur en super gezellig! </p>
+                    <p>Top zaak!! Resultaat is ook super!</p>
+                    <h6>Priscilla Knetemann</h6>
+
+                    <p>Tja wat moet ik er van zeggen Eindelijk een kapsalon waar je niet hoeft te wachten tot je
+                        eindelijk aan de beurt bent!!</p>
+                    <p>De ambiance bij binnenkomst is geweldig!Ook de hospitaliti is ronduit top!</p>
+                    <p>En je gaat de deur uit met een zorgvuldig knapgeknipte kop!!!!</p>
+                    <p>Proficaat en veel succes!!En tot over een paar weken!!!!!</p>
+                    <h6>Gerrit van Klaveren</h6>
+
+                    <p>Bedankt voor de geweldige service, en ben super blij met me nieuwe kapsel en kleur!!!</p>
+                    <h6>Diana Jager</h6>
+
+                    <p>Via Stichting Haarwensen gevonden. Om helemaal kort te gaan moet je wel een goede kapper vinden,
+                        en Tiffany was The One! Ik ben heel tevreden met mijn nieuwe haar, en ook de sfeer was goed.
+                        Tiffany neemt echt de tijd om te begrijpen wat je met je haar wilt, werkt snel en professioneel,
+                        en vertelt duidelijk hoe je je nieuwe coupe mooi kunt stylen. Aanrader! :)</p>
+                    <h6>Lilit Zeltsburg</h6>
 
 
-    <script src="http://maps.google.com/maps/api/js?key=AIzaSyCG3goAUjYtQd86erUGETJQ9w7Bk8IO748&language=nl"></script>
+                </div>
+                <!-- / col-sm-5 -->
 
-    <script>
-//        function initMap() {
-//            var uluru = {lat: 52.1114521, lng: 4.28005440000004};
-//            var map = new google.maps.Map(document.getElementById('map'), {
-//                zoom: 18,
-//                center: uluru
-//                //gestureHandling: 'greedy'
-//            });
-//            var marker = new google.maps.Marker({
-//                position: uluru,
-//                map: map
-//            });
-//        }
-    </script>
+                <div class="col-md-7 hidden-xs hidden-sm">
+
+                    <div class="img-full animated" data-animation="fadeInRight"><img
+                            src="images/portfolio/salon/wash.jpg" height="424" width="984" alt=""></div>
+
+                </div>
+                <!-- / col-sm-6 -->
+
+            </div>
+            <!-- / row -->
+            <!-- / col-md-12 -->
+
+        </div>
+        <!-- / row -->
+
+    </div>
+    <!-- / container-->
+
+</div>
+<!-- / references -->
+
+<div id="contact" class="pages">
+
+    <div class="container space-y-t">
+
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="section-header">contact <span class="underline animated" data-animation="fullWidth"></span>
+                </h1>
+            </div>
+            <!-- / col-md-12 -->
+        </div>
+        <!-- / row -->
+        <div class="map-wrap" if="fullpage">
+
+            <div class="gmap_canvas"
+                 data-latitude="52.1114521"
+                 data-longitude="4.28005440000004"
+                 data-marker-location1="Fokkemast 7, 2586 KP Den Haag, The Netherlands"
+                 data-marker-location2=" "
+                 data-marker2-visible="false"
+                 data-marker1-content="Waar de magie gebeurt!">
+            </div>
+
+        </div>
+    </div>
+    <!-- / container -->
+
+    <!-- end contact -->
+    <footer class="main-footer space-y text-center">
+
+        <h4 class="text-uppercase title-footer">&copy; At Tiffany's</h4>
+
+    </footer>
+</div>
 
 
-    <script src="js/map-script.min.js"></script>
-    <script src="js/velocity.min.js"></script>
-    <script src="js/jquery.animsition.js"></script>
-    <script src="js/materialmenu.js"></script>
-    <script src="js/video-player.js"></script>
+<nav id="mm-menu" class="mm-menu">
 
-    <script src="quform/js/plugins.js"></script>
-    <script src="quform/js/scripts.js"></script>
+    <h1 class="mm-menu__title text-uppercase">over ons</h1>
 
-    <script src="js/retina.min.js"></script>
-    <script src="js/custom.js"></script>
+    <div class="mm-menu__address">
+        <h6 class="text-uppercase">over ons</h6>
+        <p>At Tiffany's is een gezellige kapsalon voor jong en oud gelegen zeer nabij de Scheveningse boulevard.</p>
+
+    </div>
+    <!-- / mm-menu__address-->
+
+    <div class="mm-menu__address">
+        <h6 class="text-uppercase">vakantie 2018</h6>
+        <ul class="mm-menu__list">
+            <li>Van 04 Aug </li>
+            <li>Tot 14 Aug </li>
+        </ul>
+    </div>
+    <!-- / mm-menu__address-->
+
+    <div class="mm-menu__address">
+        <h6 class="text-uppercase">contact info</h6>
+        <ul class="mm-menu__list">
+            <li>+31 06-15429775</li>
+            <li>info@attiffanys.nl</li>
+        </ul>
+    </div>
+    <!-- / mm-menu__address-->
+
+    <div class="mm-menu__address">
+        <h6 class="text-uppercase">At Tiffany's adres</h6>
+        <ul class="mm-menu__list">
+            <li>Fokkemast 7</li>
+            <li>2586 KP Scheveningen</li>
+        </ul>
+    </div>
+    <!-- / mm-menu__address-->
+
+    <div class="mm-menu__address">
+        <h6 class="text-uppercase">At Tiffany's social</h6>
+
+        <ul class="mm-menu__social">
+            <li><a href="https://www.facebook.com/attiffanys/"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li><a href="#"><i class="fa fa-instagram"></i></a>
+            </li>
+
+        </ul>
+        <!-- / mm-menu__social -->
+
+    </div>
+
+</nav>
+<!-- /nav -->
+
+
+<a href="#" class="back-to-top"><i class="fa fa-long-arrow-up"></i></a>
+
+</div>
+<!-- / animsation -->
+
+
+<script src="js/jquery.1.12.4.js"></script>
+<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.appear.js"></script>
+
+
+<script src="js/jquery.countTo.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+<script src="js/jquery.cubeportfolio.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/masterslider.min.js"></script>
+
+
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyCG3goAUjYtQd86erUGETJQ9w7Bk8IO748&language=nl"></script>
+
+<script>
+    //        function initMap() {
+    //            var uluru = {lat: 52.1114521, lng: 4.28005440000004};
+    //            var map = new google.maps.Map(document.getElementById('map'), {
+    //                zoom: 18,
+    //                center: uluru
+    //                //gestureHandling: 'greedy'
+    //            });
+    //            var marker = new google.maps.Marker({
+    //                position: uluru,
+    //                map: map
+    //            });
+    //        }
+</script>
+
+
+<script src="js/map-script.min.js"></script>
+<script src="js/velocity.min.js"></script>
+<script src="js/jquery.animsition.js"></script>
+<script src="js/materialmenu.js"></script>
+<script src="js/video-player.js"></script>
+
+<script src="quform/js/plugins.js"></script>
+<script src="quform/js/scripts.js"></script>
+
+<script src="js/retina.min.js"></script>
+<script src="js/custom.js"></script>
 
 </body>
 
