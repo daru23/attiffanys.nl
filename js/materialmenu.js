@@ -122,6 +122,7 @@
   function Menu() {
     this.body = document.body;
     this.wrapper = document.querySelector(".wrapper");
+    this.title = document.querySelector("#attiffanys_title");
     this.toggle = document.querySelector("#mm-menu-toggle");
     this.menu = document.querySelector("#mm-menu");
     this.menuItems = this.menu.querySelectorAll("li");
@@ -173,6 +174,7 @@
     this.body.classList.add("mm-menu-open");
     this.wrapper.classList.add("mm-menu-open");
     this.toggle.classList.add("active");
+    this.title.classList.add("none-display");
     this.menu.classList.add("active");
 
     for ( var i = 0; i < scope.menuItems.length; i++ ) {
@@ -198,6 +200,7 @@
     this.body.classList.remove("mm-menu-open");
     this.wrapper.classList.remove("mm-menu-open");
     this.toggle.classList.remove("active");
+    this.title.classList.remove("none-display");
     this.menu.classList.remove("active");
     
     for ( var i = 0; i < scope.menuItems.length; i++ ) {
