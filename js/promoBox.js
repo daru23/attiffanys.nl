@@ -177,7 +177,7 @@ var promoBox = function (o) {
                 '#promoOverlay { position: fixed; width: 100%; height: 100%; top: 0; left: 0; zoom: 1; z-index: 9990; background: #000; background: rgba(0, 0, 0, 0.6); -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)"; filter: alpha(opacity=60); pointer-events: all; }',
                 '#promoContent { position: relative; display: inline-block; top: 10%; max-width: 80%; height: auto; z-index: 9992; pointer-events: all; }',
                 '#promoImage { height: auto; width: auto; max-width: 100%; max-height: 75%; box-sizing: border-box; display: block; border: 8px solid #fff; }',
-                '#promoText {position: absolute; top: 20%; left: 10%; display: block; color: white; font-size: 40px; text-shadow: 2px 2px grey;}',
+                '#promoText {position: absolute; top: 20%; left: 10%; display: block; color: white; font-size: 30px; text-shadow: 2px 2px grey;}',
                 '#promoClose { position: absolute; top: 0; right: 0; display: block; line-height: 16px; text-align: right; padding: 24px 28px; color: #000; z-index: 9992; font-family: sans-serif; font-size: 17px; opacity: 0.6; transition: 0.1s all; text-decoration: none; }',
                 '#promoClose:hover { opacity: 1; cursor: pointer; }',
                 '#promoButtons { position: absolute; bottom: 0; width: 100%; padding: 24px 0; }',
