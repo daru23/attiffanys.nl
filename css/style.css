@@ -4,8 +4,8 @@ CARNA CSS V.1
 
 [Table of contents]
 
-1. Global 
-2. Reset 
+1. Global
+2. Reset
 3. Extra Classes
 4. Header
 5. Main Menu
@@ -9656,4 +9656,9 @@ h5 {
 
 .none-display {
     display: none;
+}
+
+#promoImage {
+    border: 0px solid #fff;
+    top: 5%;
 }
